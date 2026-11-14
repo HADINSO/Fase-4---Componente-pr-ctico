@@ -1,0 +1,160 @@
+
+--- STDERR ---
+test_actualizar_cliente (test_clientes.TestClienteServiceDuplicados.test_actualizar_cliente) ... INFO: Cliente registrado: id=CLI-010, nombre=María López
+INFO: Cliente registrado exitosamente: CLI-010
+INFO: Cliente actualizado: CLI-010
+ok
+test_actualizar_cliente_inexistente (test_clientes.TestClienteServiceDuplicados.test_actualizar_cliente_inexistente) ... INFO: Cliente registrado: id=CLI-010, nombre=María López
+INFO: Cliente registrado exitosamente: CLI-010
+ok
+test_buscar_por_identificacion_existente (test_clientes.TestClienteServiceDuplicados.test_buscar_por_identificacion_existente) ... INFO: Cliente registrado: id=CLI-010, nombre=María López
+INFO: Cliente registrado exitosamente: CLI-010
+ok
+test_buscar_por_identificacion_inexistente (test_clientes.TestClienteServiceDuplicados.test_buscar_por_identificacion_inexistente) ... INFO: Cliente registrado: id=CLI-010, nombre=María López
+INFO: Cliente registrado exitosamente: CLI-010
+ok
+test_listar_clientes (test_clientes.TestClienteServiceDuplicados.test_listar_clientes) ... INFO: Cliente registrado: id=CLI-010, nombre=María López
+INFO: Cliente registrado exitosamente: CLI-010
+ok
+test_registrar_cliente_duplicado_lanza_excepcion (test_clientes.TestClienteServiceDuplicados.test_registrar_cliente_duplicado_lanza_excepcion) ... INFO: Cliente registrado: id=CLI-010, nombre=María López
+INFO: Cliente registrado exitosamente: CLI-010
+ERROR: Ya existe un cliente con identificación 11223344.
+ERROR: Excepción: ClienteDuplicadoError - Ya existe un cliente con identificación 11223344.
+ok
+test_total_clientes (test_clientes.TestClienteServiceDuplicados.test_total_clientes) ... INFO: Cliente registrado: id=CLI-010, nombre=María López
+INFO: Cliente registrado exitosamente: CLI-010
+ok
+test_cliente_valido (test_clientes.TestClienteValidaciones.test_cliente_valido) ... ok
+test_correo_invalido_lanza_excepcion (test_clientes.TestClienteValidaciones.test_correo_invalido_lanza_excepcion) ... ok
+test_encapsulamiento_setter_valida (test_clientes.TestClienteValidaciones.test_encapsulamiento_setter_valida) ... ok
+test_identificacion_invalida_lanza_excepcion (test_clientes.TestClienteValidaciones.test_identificacion_invalida_lanza_excepcion) ... ok
+test_nombre_vacio_lanza_excepcion (test_clientes.TestClienteValidaciones.test_nombre_vacio_lanza_excepcion) ... ok
+test_telefono_invalido_lanza_excepcion (test_clientes.TestClienteValidaciones.test_telefono_invalido_lanza_excepcion) ... ok
+test_entidad_no_se_puede_instanciar (test_clientes.TestEntidadAbstracta.test_entidad_no_se_puede_instanciar) ... ok
+test_continuidad_despues_de_error (test_excepciones.TestContinuidadPrograma.test_continuidad_despues_de_error) ... ok
+test_varias_operaciones_independientes (test_excepciones.TestContinuidadPrograma.test_varias_operaciones_independientes) ... ok
+test_excepcion_encadenada_conserva_causa (test_excepciones.TestEncadenamientoExcepciones.test_excepcion_encadenada_conserva_causa) ... ok
+test_excepcion_encadenada_mensaje_combinado (test_excepciones.TestEncadenamientoExcepciones.test_excepcion_encadenada_mensaje_combinado) ... ok
+test_try_except_else (test_excepciones.TestEstructurasManejoErrores.test_try_except_else) ... ok
+test_try_except_else_no_ejecuta_si_hay_excepcion (test_excepciones.TestEstructurasManejoErrores.test_try_except_else_no_ejecuta_si_hay_excepcion) ... ok
+test_try_except_finally (test_excepciones.TestEstructurasManejoErrores.test_try_except_finally) ... ok
+test_try_except_finally_siempre_ejecuta (test_excepciones.TestEstructurasManejoErrores.test_try_except_finally_siempre_ejecuta) ... ok
+test_captura_general_de_seguridad (test_excepciones.TestJerarquiaExcepciones.test_captura_general_de_seguridad) ... ok
+test_captura_por_tipo_especifico (test_excepciones.TestJerarquiaExcepciones.test_captura_por_tipo_especifico) ... ok
+test_mensajes_claros (test_excepciones.TestJerarquiaExcepciones.test_mensajes_claros) ... ok
+test_software_fj_error_es_exception (test_excepciones.TestJerarquiaExcepciones.test_software_fj_error_es_exception) ... ok
+test_todas_heredan_de_software_fj_error (test_excepciones.TestJerarquiaExcepciones.test_todas_heredan_de_software_fj_error) ... ok
+test_niveles_log (test_excepciones.TestRegistroLogs.test_niveles_log) ... ok
+test_registra_evento_error (test_excepciones.TestRegistroLogs.test_registra_evento_error) ... ok
+test_registra_evento_info (test_excepciones.TestRegistroLogs.test_registra_evento_info) ... ok
+test_cancelar_reserva_finalizada_no_permitido (test_reservas.TestConfirmacionCancelacionReserva.test_cancelar_reserva_finalizada_no_permitido) ... ok
+test_cancelar_reserva_pasada_a_cancelada (test_reservas.TestConfirmacionCancelacionReserva.test_cancelar_reserva_pasada_a_cancelada) ... ok
+test_cancelar_reserva_ya_cancelada_no_permitido (test_reservas.TestConfirmacionCancelacionReserva.test_cancelar_reserva_ya_cancelada_no_permitido) ... ok
+test_confirmar_reserva_cancelada_no_permitido (test_reservas.TestConfirmacionCancelacionReserva.test_confirmar_reserva_cancelada_no_permitido) ... ok
+test_confirmar_reserva_finalizada_no_permitido (test_reservas.TestConfirmacionCancelacionReserva.test_confirmar_reserva_finalizada_no_permitido) ... ok
+test_confirmar_reserva_pasada_a_confirmada (test_reservas.TestConfirmacionCancelacionReserva.test_confirmar_reserva_pasada_a_confirmada) ... ok
+test_estado_invalido_lanza_excepcion (test_reservas.TestConfirmacionCancelacionReserva.test_estado_invalido_lanza_excepcion) ... ok
+test_estados_permitidos (test_reservas.TestConfirmacionCancelacionReserva.test_estados_permitidos) ... ok
+test_finalizar_reserva_solo_desde_confirmada (test_reservas.TestConfirmacionCancelacionReserva.test_finalizar_reserva_solo_desde_confirmada) ... ok
+test_crear_reserva_duracion_cero (test_reservas.TestCreacionReserva.test_crear_reserva_duracion_cero) ... ok
+test_crear_reserva_duracion_negativa (test_reservas.TestCreacionReserva.test_crear_reserva_duracion_negativa) ... ok
+test_crear_reserva_servicio_no_disponible (test_reservas.TestCreacionReserva.test_crear_reserva_servicio_no_disponible) ... ok
+test_crear_reserva_sin_cliente (test_reservas.TestCreacionReserva.test_crear_reserva_sin_cliente) ... ok
+test_crear_reserva_sin_servicio (test_reservas.TestCreacionReserva.test_crear_reserva_sin_servicio) ... ok
+test_crear_reserva_valida (test_reservas.TestCreacionReserva.test_crear_reserva_valida) ... ok
+test_cancelar_reserva_via_service (test_reservas.TestReservaService.test_cancelar_reserva_via_service) ... INFO: Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+INFO: Cliente registrado exitosamente: CLI-SVC-001
+INFO: Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+INFO: Servicio registrado: SRV-SVC-001 (sala)
+INFO: Reserva registrada: id=RES-SVC-004, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+INFO: Reserva registrada: RES-SVC-004
+INFO: Reserva cancelada: id=RES-SVC-004
+INFO: Reserva cancelada: RES-SVC-004
+ok
+test_confirmar_reserva_via_service (test_reservas.TestReservaService.test_confirmar_reserva_via_service) ... INFO: Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+INFO: Cliente registrado exitosamente: CLI-SVC-001
+INFO: Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+INFO: Servicio registrado: SRV-SVC-001 (sala)
+INFO: Reserva registrada: id=RES-SVC-003, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+INFO: Reserva registrada: RES-SVC-003
+INFO: Reserva confirmada: id=RES-SVC-003
+INFO: Reserva confirmada: RES-SVC-003
+ok
+test_listar_reservas (test_reservas.TestReservaService.test_listar_reservas) ... INFO: Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+INFO: Cliente registrado exitosamente: CLI-SVC-001
+INFO: Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+INFO: Servicio registrado: SRV-SVC-001 (sala)
+INFO: Reserva registrada: id=RES-SVC-002, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+INFO: Reserva registrada: RES-SVC-002
+ok
+test_registrar_reserva (test_reservas.TestReservaService.test_registrar_reserva) ... INFO: Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+INFO: Cliente registrado exitosamente: CLI-SVC-001
+INFO: Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+INFO: Servicio registrado: SRV-SVC-001 (sala)
+INFO: Reserva registrada: id=RES-SVC-001, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+INFO: Reserva registrada: RES-SVC-001
+ok
+test_reserva_duplicada (test_reservas.TestReservaService.test_reserva_duplicada) ... INFO: Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+INFO: Cliente registrado exitosamente: CLI-SVC-001
+INFO: Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+INFO: Servicio registrado: SRV-SVC-001 (sala)
+INFO: Reserva registrada: id=RES-SVC-005, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+INFO: Reserva registrada: RES-SVC-005
+ERROR: Ya existe una reserva con el identificador RES-SVC-005.
+ERROR: Excepción: ReservaInvalidaError - Ya existe una reserva con el identificador RES-SVC-005.
+ok
+test_reserva_no_encontrada (test_reservas.TestReservaService.test_reserva_no_encontrada) ... INFO: Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+INFO: Cliente registrado exitosamente: CLI-SVC-001
+INFO: Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+INFO: Servicio registrado: SRV-SVC-001 (sala)
+ok
+test_reservas_por_estado (test_reservas.TestReservaService.test_reservas_por_estado) ... INFO: Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+INFO: Cliente registrado exitosamente: CLI-SVC-001
+INFO: Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+INFO: Servicio registrado: SRV-SVC-001 (sala)
+INFO: Reserva registrada: id=RES-EST-001, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+INFO: Reserva registrada: RES-EST-001
+ok
+test_cantidad_mayor_a_disponible_equipo (test_servicios.TestCalculosCosto.test_cantidad_mayor_a_disponible_equipo) ... ok
+test_cantidad_menor_a_disponible_equipo (test_servicios.TestCalculosCosto.test_cantidad_menor_a_disponible_equipo) ... ok
+test_costo_basico_asesoria (test_servicios.TestCalculosCosto.test_costo_basico_asesoria) ... ok
+test_costo_basico_equipo (test_servicios.TestCalculosCosto.test_costo_basico_equipo) ... ok
+test_costo_basico_sala (test_servicios.TestCalculosCosto.test_costo_basico_sala) ... ok
+test_costo_con_descuento (test_servicios.TestCalculosCosto.test_costo_con_descuento) ... ok
+test_costo_con_impuesto (test_servicios.TestCalculosCosto.test_costo_con_impuesto) ... ok
+test_costo_con_impuesto_y_descuento (test_servicios.TestCalculosCosto.test_costo_con_impuesto_y_descuento) ... ok
+test_descuento_mayor_a_100_lanza_excepcion (test_servicios.TestCalculosCosto.test_descuento_mayor_a_100_lanza_excepcion) ... ok
+test_calcular_costo_polimorfico (test_servicios.TestPolimorfismo.test_calcular_costo_polimorfico) ... ok
+test_describir_servicio_polimorfico (test_servicios.TestPolimorfismo.test_describir_servicio_polimorfico) ... ok
+test_todos_son_instancia_de_servicio (test_servicios.TestPolimorfismo.test_todos_son_instancia_de_servicio) ... ok
+test_servicio_no_se_puede_instanciar (test_servicios.TestServicioAbstracto.test_servicio_no_se_puede_instanciar) ... ok
+test_buscar_por_codigo (test_servicios.TestServicioService.test_buscar_por_codigo) ... INFO: Servicio registrado: codigo=SRV-AS-01, nombre=Asesoría
+INFO: Servicio registrado: SRV-AS-01 (asesoria)
+ok
+test_buscar_por_codigo_inexistente (test_servicios.TestServicioService.test_buscar_por_codigo_inexistente) ... ok
+test_cambiar_disponibilidad (test_servicios.TestServicioService.test_cambiar_disponibilidad) ... INFO: Servicio registrado: codigo=SRV-DISP-01, nombre=Sala
+INFO: Servicio registrado: SRV-DISP-01 (sala)
+INFO: Disponibilidad cambiada: SRV-DISP-01 -> disponible=False
+ok
+test_cambiar_disponibilidad_inexistente (test_servicios.TestServicioService.test_cambiar_disponibilidad_inexistente) ... ok
+test_registrar_y_listar_servicios (test_servicios.TestServicioService.test_registrar_y_listar_servicios) ... INFO: Servicio registrado: codigo=SRV-SALA-01, nombre=Sala A
+INFO: Servicio registrado: SRV-SALA-01 (sala)
+INFO: Servicio registrado: codigo=SRV-EQ-01, nombre=Proyector
+INFO: Servicio registrado: SRV-EQ-01 (equipo)
+ok
+test_calcular_costo_servicio_inexistente (test_servicios.TestServicioServiceCalculoPolimorfico.test_calcular_costo_servicio_inexistente) ... INFO: Servicio registrado: codigo=SRV-SVC-01, nombre=Sala
+INFO: Servicio registrado: SRV-SVC-01 (sala)
+ok
+test_calcular_costo_via_servicio (test_servicios.TestServicioServiceCalculoPolimorfico.test_calcular_costo_via_servicio) ... INFO: Servicio registrado: codigo=SRV-SVC-01, nombre=Sala
+INFO: Servicio registrado: SRV-SVC-01 (sala)
+INFO: Costo calculado: servicio=SRV-SVC-01 cantidad=1 impuesto=0.0 descuento=0.0 -> 80000.0
+ok
+test_servicio_con_precio_negativo (test_servicios.TestServicioValidaciones.test_servicio_con_precio_negativo) ... ok
+test_servicio_sin_nombre (test_servicios.TestServicioValidaciones.test_servicio_sin_nombre) ... ok
+
+----------------------------------------------------------------------
+Ran 74 tests in 0.064s
+
+OK
+
+--- Código de salida: 0 ---

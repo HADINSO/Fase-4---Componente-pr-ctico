@@ -1,0 +1,132 @@
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-010, nombre=María López
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-010
+2026-11-14 17:00:52 | INFO     | Cliente actualizado: CLI-010
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-010, nombre=María López
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-010
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-010, nombre=María López
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-010
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-010, nombre=María López
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-010
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-010, nombre=María López
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-010
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-010, nombre=María López
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-010
+2026-11-14 17:00:52 | ERROR    | Ya existe un cliente con identificación 11223344.
+2026-11-14 17:00:52 | ERROR    | Excepción: ClienteDuplicadoError - Ya existe un cliente con identificación 11223344.
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-010, nombre=María López
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-010
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-SVC-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-001 (sala)
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=RES-SVC-004, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: RES-SVC-004
+2026-11-14 17:00:52 | INFO     | Reserva cancelada: id=RES-SVC-004
+2026-11-14 17:00:52 | INFO     | Reserva cancelada: RES-SVC-004
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-SVC-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-001 (sala)
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=RES-SVC-003, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: RES-SVC-003
+2026-11-14 17:00:52 | INFO     | Reserva confirmada: id=RES-SVC-003
+2026-11-14 17:00:52 | INFO     | Reserva confirmada: RES-SVC-003
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-SVC-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-001 (sala)
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=RES-SVC-002, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: RES-SVC-002
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-SVC-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-001 (sala)
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=RES-SVC-001, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: RES-SVC-001
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-SVC-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-001 (sala)
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=RES-SVC-005, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: RES-SVC-005
+2026-11-14 17:00:52 | ERROR    | Ya existe una reserva con el identificador RES-SVC-005.
+2026-11-14 17:00:52 | ERROR    | Excepción: ReservaInvalidaError - Ya existe una reserva con el identificador RES-SVC-005.
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-SVC-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-001 (sala)
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=CLI-SVC-001, nombre=Cliente Svc
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: CLI-SVC-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-001, nombre=Sala Svc
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-001 (sala)
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=RES-EST-001, cliente=CLI-SVC-001, servicio=SRV-SVC-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: RES-EST-001
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-AS-01, nombre=Asesoría
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-AS-01 (asesoria)
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-DISP-01, nombre=Sala
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-DISP-01 (sala)
+2026-11-14 17:00:52 | INFO     | Disponibilidad cambiada: SRV-DISP-01 -> disponible=False
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SALA-01, nombre=Sala A
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SALA-01 (sala)
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-EQ-01, nombre=Proyector
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-EQ-01 (equipo)
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-01, nombre=Sala
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-01 (sala)
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=SRV-SVC-01, nombre=Sala
+2026-11-14 17:00:52 | INFO     | Servicio registrado: SRV-SVC-01 (sala)
+2026-11-14 17:00:52 | INFO     | Costo calculado: servicio=SRV-SVC-01 cantidad=1 impuesto=0.0 descuento=0.0 -> 80000.0
+2026-11-14 17:00:52 | INFO     | === INICIO DEL SISTEMA SOFTWARE FJ ===
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=EVID-CLI-001, nombre=María González Pérez
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: EVID-CLI-001
+2026-11-14 17:00:52 | ERROR    | Formato de correo electrónico inválido: 'correo-invalido'
+2026-11-14 17:00:52 | ERROR    | Excepción: ClienteInvalidoError - Formato de correo electrónico inválido: 'correo-invalido'
+2026-11-14 17:00:52 | ERROR    | Formato de correo electrónico inválido: 'correo-invalido'
+2026-11-14 17:00:52 | ERROR    | Excepción: ClienteInvalidoError - Formato de correo electrónico inválido: 'correo-invalido'
+2026-11-14 17:00:52 | ERROR    | Ya existe un cliente con identificación 12345678.
+2026-11-14 17:00:52 | ERROR    | Excepción: ClienteDuplicadoError - Ya existe un cliente con identificación 12345678.
+2026-11-14 17:00:52 | ERROR    | Ya existe un cliente con identificación 12345678.
+2026-11-14 17:00:52 | ERROR    | Excepción: ClienteDuplicadoError - Ya existe un cliente con identificación 12345678.
+2026-11-14 17:00:52 | INFO     | Cliente registrado: id=EVID-CLI-002, nombre=Ana López Torres
+2026-11-14 17:00:52 | INFO     | Cliente registrado exitosamente: EVID-CLI-002
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=EVID-SALA-001, nombre=Sala de Conferencias A
+2026-11-14 17:00:52 | INFO     | Servicio registrado: EVID-SALA-001 (sala)
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=EVID-EQ-001, nombre=Alquiler de Proyectores
+2026-11-14 17:00:52 | INFO     | Servicio registrado: EVID-EQ-001 (equipo)
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=EVID-AS-001, nombre=Asesoría de Software
+2026-11-14 17:00:52 | INFO     | Servicio registrado: EVID-AS-001 (asesoria)
+2026-11-14 17:00:52 | ERROR    | El precio base no puede ser negativo: -10000.0
+2026-11-14 17:00:52 | ERROR    | Excepción: ServicioInvalidoError - El precio base no puede ser negativo: -10000.0
+2026-11-14 17:00:52 | ERROR    | El precio base no puede ser negativo: -10000.0
+2026-11-14 17:00:52 | ERROR    | Excepción: ServicioInvalidoError - El precio base no puede ser negativo: -10000.0
+2026-11-14 17:00:52 | INFO     | Costo calculado: servicio=EVID-SALA-001 cantidad=1 impuesto=0.0 descuento=0.0 -> 80000.0
+2026-11-14 17:00:52 | ERROR    | No se encontró un servicio con código SRV-INEXISTENTE.
+2026-11-14 17:00:52 | ERROR    | Excepción: ParametroFaltanteError - No se encontró un servicio con código SRV-INEXISTENTE.
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=EVID-RES-001, cliente=EVID-CLI-001, servicio=EVID-SALA-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: EVID-RES-001
+2026-11-14 17:00:52 | INFO     | Reserva confirmada: id=EVID-RES-001
+2026-11-14 17:00:52 | INFO     | Reserva confirmada: EVID-RES-001
+2026-11-14 17:00:52 | ERROR    | La reserva requiere un cliente válido.
+2026-11-14 17:00:52 | ERROR    | Excepción: ParametroFaltanteError - La reserva requiere un cliente válido.
+2026-11-14 17:00:52 | ERROR    | La reserva requiere un cliente válido.
+2026-11-14 17:00:52 | ERROR    | Excepción: ParametroFaltanteError - La reserva requiere un cliente válido.
+2026-11-14 17:00:52 | INFO     | Servicio registrado: codigo=EVID-ND-001, nombre=No Disponible
+2026-11-14 17:00:52 | INFO     | Servicio registrado: EVID-ND-001 (asesoria)
+2026-11-14 17:00:52 | ERROR    | El servicio 'No Disponible' no está disponible para reservar.
+2026-11-14 17:00:52 | ERROR    | Excepción: ServicioNoDisponibleError - El servicio 'No Disponible' no está disponible para reservar.
+2026-11-14 17:00:52 | ERROR    | El servicio 'No Disponible' no está disponible para reservar.
+2026-11-14 17:00:52 | ERROR    | Excepción: ServicioNoDisponibleError - El servicio 'No Disponible' no está disponible para reservar.
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=EVID-RES-002, cliente=EVID-CLI-001, servicio=EVID-AS-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: EVID-RES-002
+2026-11-14 17:00:52 | INFO     | Reserva confirmada: id=EVID-RES-002
+2026-11-14 17:00:52 | INFO     | Reserva confirmada: EVID-RES-002
+2026-11-14 17:00:52 | INFO     | Reserva finalizada: EVID-RES-002
+2026-11-14 17:00:52 | ERROR    | No se puede cancelar una reserva finalizada.
+2026-11-14 17:00:52 | ERROR    | Excepción: OperacionNoPermitidaError - No se puede cancelar una reserva finalizada.
+2026-11-14 17:00:52 | ERROR    | No se puede cancelar una reserva finalizada.
+2026-11-14 17:00:52 | ERROR    | Excepción: OperacionNoPermitidaError - No se puede cancelar una reserva finalizada.
+2026-11-14 17:00:52 | INFO     | Reserva registrada: id=EVID-RES-003, cliente=EVID-CLI-002, servicio=EVID-EQ-001
+2026-11-14 17:00:52 | INFO     | Reserva registrada: EVID-RES-003
+2026-11-14 17:00:52 | INFO     | Reserva cancelada: id=EVID-RES-003
+2026-11-14 17:00:52 | INFO     | Reserva cancelada: EVID-RES-003
+2026-11-14 17:00:52 | ERROR    | Excepción: CalculoCostoError - No se pudo calcular el costo | Causa original: ParametroFaltanteError - Servicio no encontrado: SRV-ENCADENADO
+2026-11-14 17:00:52 | INFO     | === FINALIZACIÓN DEL SISTEMA SOFTWARE FJ ===
